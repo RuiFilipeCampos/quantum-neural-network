@@ -12,7 +12,7 @@ $$
 |\textrm{qbit}_1, \textrm{qbit}_2, ..., \textrm{qbit}_n> = \sum_i^n \alpha_i |e_i>
 $$
 
-where $|e_i> \in { |00..0>, |100..0>, ..., |111..1>}$.
+where $|e_i> \in \left ( |00..0>, |100..0>, ..., |111..1> \right ) $.
 
 To implement logic, the qbits go through quantum gates which shape the state of the qbits. The final state of the set of qbits is determined by repeatedly making the qbits go through the gates and measuring the result. The distribution is the result. 
 
