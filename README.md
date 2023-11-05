@@ -6,7 +6,7 @@ $$
 |\textrm{qbit}> = \alpha |0> + \beta |1> 
 $$
 
-this is normalized, which means that the entire state can be parametrized by one variable. Since that variable is complex, the number of degrees of freedom is 2 and the entire state space for the qbit can be fit into a 2d, the bloch sphere. 
+this is normalized, which means that the entire state can be parametrized by one variable. Since that variable is complex, the number of degrees of freedom is 2 and the entire state space for the qbit can be fit into a 2d sphere, often called the bloch sphere. 
 
 A quantum computer will have N qbits, thus the state space of a quantum computer is the tensor product of N such spaces.
 
