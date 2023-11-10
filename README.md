@@ -19,4 +19,8 @@ where $|e_i> \in \left ( |00..0>, |100..0>, ..., |111..1> \right ) $.
 To implement logic, the qbits go through quantum gates which shape the state of the qbits. The final state of the set of qbits is determined by repeatedly making the qbits go through the gates and measuring the result. The distribution is the result. 
 
 
+## Quantum Neuron
+
+![image](https://github.com/RuiFilipeCampos/quantum-neural-network/assets/63464503/e6345dbe-2429-43ef-9bee-fe3333c11bdb)
+
 
