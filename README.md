@@ -25,7 +25,7 @@ To implement logic, the qbits go through quantum gates which shape the state of 
 
 
 - The horizontal lines represent qubits in the quantum system. The |0⟩ indicates that the qubits start in the zero state.
-- The H gates are Hadamard gates, which create superpositions of qubit states. They are applied to each of the top qubits, placing them into an equal superposition of |0⟩ and |1⟩.
+- The H gates are [Hadamard gates](https://en.wikipedia.org/wiki/Quantum_logic_gate#Hadamard_gate), which create superpositions of qubit states. They are applied to each of the top qubits, placing them into an equal superposition of |0⟩ and |1⟩.
 - The vertical lines with dots at the top and a box at the bottom represent controlled gates, specifically controlled phase shift gates. The dots represent control qubits and the boxes are the target qubits. The notation ( $U_{\omega}^{2^k}$ ) indicates a controlled rotation, with ω being a complex root of unity and k depending on the position of the gate in the circuit.
 - The $QFT^{-1}$ box represents the inverse Quantum Fourier Transform being applied to the top qubits. The QFT is a quantum version of the discrete Fourier transform, and it is fundamental to many quantum algorithms.
 - The symbol on the right is a measurement gate, indicating the qubit's state is being measured, collapsing the superposition to a definite state.
