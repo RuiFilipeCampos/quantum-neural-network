@@ -31,3 +31,7 @@ To implement logic, the qbits go through quantum gates which shape the state of 
 - The symbol on the right is a measurement gate, indicating the qubit's state is being measured, collapsing the superposition to a definite state.
 
 
+### links
+
+https://en.wikipedia.org/wiki/Quantum_logic_gate
+
